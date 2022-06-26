@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+#navbar{
+    background-color:rgb(245, 87, 87);
+    margin: auto;
+    padding: 13px 14px;
+}
+#navbar ul{
+    display: flex;
+    flex-direction: row;
+}
+#navbar li{
+    list-style: none;
+}
+#navbar li a{
+    color: white;
+    text-decoration: none;
+    padding: 30px;
+    font-family:fantasy;
+    font-size:20px;
+}
+#navbar li a:hover{
+    color: black;
+}
+#logo{
+    display: flex;
+    color: white;
+    align-items: center;
+    margin: 0 14px;
+    font-size: 28px;
+    margin-right: 10px;
+}
+#logo img{
+    height: 40px;
+    filter: invert(1);
+}
+#introSection{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 5rem;
+    background: center/cover no-repeat url('/static/bg.jpg');
+    height: 600px;
+    padding-bottom: 40px;
+
+}
+#introSection div.small{
+    font-size: 2rem;
+    
+}
+#missionSection{
+    height: 500px;
+    text-align: center;
+    padding-top: 30px;    
+}
+#missionSection h2{
+    background-color:rgb(245, 87, 87);
+    color:white;
+    font-size: 50px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.card{
+    display: inline-block;
+    border: 2px solid red;
+    border-radius: 10px;
+    width: 30%;
+    margin: 23px 7px;
+    height: 300px;
+}
+.card h3{
+    text-align: center;
+    text-decoration: underline;
+    font-size: 25px;
+    margin: 0 12px;
+    margin-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.card-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.card-content{
+    font-size: 20px;
+    font-family: fantasy;
+    color: blue;
+}
+.card-img{
+    height: 200px;
+    padding: 0 14px;
+    margin: 5px 9px;
+}
+.card-img img{
+    height: inherit; 
+}
+#sponsorsSection {
+    height: 350px;
+}
+#sponsorsSection h2{
+    text-align: center;
+    background-color:rgb(245, 87, 87);
+    color:white;
+    font-size: 50px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#sponsors{
+
+    display: flex;
+    flex-direction: row;
+    max-width: 100px;
+    margin-left: 20px;
+
+}
+.spImage{
+    margin: 50px;
+    height: 200px;
+}
+#footer{
+    height: 50px;
+    background-color:black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+
+}
